@@ -22,7 +22,7 @@ class GenreButtonScreen: UIViewController {
             if status == .authorized {
                 DispatchQueue.main.async {
                               self.playGenre(genre: sender.currentTitle!)
-                            }
+                }
             }
         }
         
